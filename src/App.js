@@ -7,7 +7,16 @@ const App = () => {
   const [resolvedText, setResolvedText] = useState("");
 
   const handleResolveHash = () => {
-    const resolved = hashDictionary[inputHash] || "Texto no encontrado";
+    if (!inputHash) return;
+  
+    // Dividir el input por espacios (o por otro separador que necesites)
+    const parts = inputHash.split("/"); 
+  
+    // Seleccionar la parte que siempre es la misma (ejemplo: la primera palabra)
+    const hashToSearch = parts[5]; // Cambia el índice según necesites (ej. parts[1] para la segunda palabra)
+  
+    // Buscar en el diccionario con la parte seleccionada
+    const resolved = hashDictionary[hashToSearch] || "Texto no encontrado";
     setResolvedText(resolved);
   };
 
