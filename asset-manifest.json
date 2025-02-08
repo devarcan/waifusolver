@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/waifusolver/static/css/main.2597f5d9.css",
-    "main.js": "/waifusolver/static/js/main.c686994f.js",
+    "main.js": "/waifusolver/static/js/main.43db8fa7.js",
     "index.html": "/waifusolver/index.html",
     "main.2597f5d9.css.map": "/waifusolver/static/css/main.2597f5d9.css.map",
-    "main.c686994f.js.map": "/waifusolver/static/js/main.c686994f.js.map"
+    "main.43db8fa7.js.map": "/waifusolver/static/js/main.43db8fa7.js.map"
   },
   "entrypoints": [
     "static/css/main.2597f5d9.css",
-    "static/js/main.c686994f.js"
+    "static/js/main.43db8fa7.js"
   ]
 }
