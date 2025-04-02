@@ -50,7 +50,7 @@ const App = () => {
         </div>
         <div style={{ marginTop: "40px" }}>
           <p style={{ fontSize: "14px", color: "#AAAAAA" }}>
-            Made by Arc 2024-2025
+            Made by Arc 2024-2025 / Last update: 02/04/2025
           </p>
           
         </div>
